@@ -1,7 +1,7 @@
 # Supervised Machine Learning Credit Risk Challenge
 
 ## Overview
-This is an analysis looking at six different machine learning models applied to a credit card risk. After the dataset was prepared, the low risk and high risk loans were isolated, and samples were run through six different models to discern, which if any, might be most optimal to work with going forward.
+This is an analysis looking at six different machine learning models applied to a credit card risk. After the dataset was prepared, the low risk and high risk loans were isolated, and samples were run through six different models. Afterwards, the models were evaluated to see which, if any, performed the task best.
 
 ## Results
 First, we have a random oversampling model. 
