@@ -59,6 +59,6 @@ Finally, the last model we will be looking at is an Easy Ensemble Classifier.
 - The recall for both high-risk loans and low risk-loans are in the 90s, with the form at %91 and the latter at 94%.
 
 ## Summary
-This analysis better tells us what models not to lose more than what model to use. While in this instance sensitivity is what we should care about most, that does not mean the precision should be completely disregarded. In every instance the total presicion was 99%, with it being massively skewed the the low-risk loan results. With high-risk loans, the precision did not reach 10% with any of the models. So, it would be my recommendation to find another model.
+This analysis better tells us what models not to use more than what model to use. While in this instance sensitivity is what we should care about most, that does not mean the precision should be completely disregarded. In every instance the total presicion was 99%, with it being massively skewed the the low-risk loan results. With high-risk loans, the precision did not reach 10% with any of the models. So, it would be my recommendation to find another model.
 
 However, if we need to use one of these models, the Easy Ensemble Classifier is the best choice. Maybe some features or something can be tweaked with, and we can see if it is possible to get better results with it. This model had the highest precision score for high-risk loans at 7%, and it also had the best recall overall and for high-risk loans. So I recommend going with this, even if only for the time being.
