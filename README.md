@@ -9,7 +9,7 @@ First, we have a random oversampling model.
 ![Images/random_oversampling.png](Images/random_oversampling.png)
 
 - The overall accuracy score was 65%.
-- The model is suspiciously too reliable when it comes to identifying low-risk loans and not nearly reliable enough at identifying high-risk loans. They are 100% and 1% respectively.
+- The model is too at risk of overfitting when it comes to identifying low-risk loans and not nearly reliable enough at identifying high-risk loans. They are 100% and 1% respectively.
 - There are far too many false positives for high-risk loans.
 - The overall recall is 70%, which is okay. Not good, but not terrible either. 
 - The model is much better at identifying low-risk loans than high-risk ones. The former has a recall of %71 and the latter has a recall of 59%.
